@@ -15,7 +15,7 @@ header {
     background-image: linear-gradient(to bottom, rgb(49, 96, 114), rgb(84, 200, 204));
     font-size: 1.1em;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     
 }
 h2 {
@@ -26,11 +26,34 @@ h2 {
 }
 main {
     background-color: white;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 1.2em;
     width: 100%;
-    max-width: 680px;
-    margin: 10px auto;
+    max-width: 770px;
+    margin: 2px auto;
     padding: 30px;
-    line-height: 30px;
+    line-height: 35px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562);
     border-radius: 10px;
+}
+.centro {
+  width: 40%;
+  display: block;
+  margin: 20px auto; /* centraliza horizontalmente */
+  max-width: 100%;
+  height: auto;
+ 
+}
+.fork {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+ 
+}
+.fork img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
 }
